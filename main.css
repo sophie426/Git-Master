@@ -1,0 +1,59 @@
+/* ##########Default Styles########## */
+header {
+    display:block;
+}
+body {
+    line-height: 1;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    /* position: fixed; */
+}
+.container-section-2,
+.header-section-2 {
+    width: 100%;
+    padding-left: 15px;
+    color: #000;
+    /* position: absolute; */
+    /* background-color: rgb(145, 140, 140); */
+}
+.row {
+    align-items: center;
+    margin:0;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+
+
+/* #######Custom Styles######## */
+div.col-2 {
+    background-color: rgba(11, 11, 88, 0.904);
+    margin: 0;
+    position: fixed;
+    height: 100%;
+    text-align: left;
+}
+div.box1 {
+   
+}
+div.box1 ul {
+    list-style: none ;
+    padding: 0;
+}
