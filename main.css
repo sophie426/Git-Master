@@ -13,14 +13,11 @@ body {
     color: #fff;
     /* position: fixed; */
 }
-.container-section-2,
 .header-section-2 {
     width: 100%;
     padding-left: 15px;
     color: #000;
-    /* position: absolute; */
-    /* background-color: rgb(145, 140, 140); */
-}
+    }
 .row {
     align-items: center;
     margin:0;
@@ -43,17 +40,54 @@ body {
 
 
 /* #######Custom Styles######## */
+/* ##### First Column ####### */
 div.col-2 {
-    background-color: rgba(11, 11, 88, 0.904);
+    background-color: rgba(20, 20, 66, 0.904);
     margin: 0;
     position: fixed;
     height: 100%;
     text-align: left;
+    line-height: 10px;
+    padding-top: 10px;
 }
-div.box1 {
-   
+div.box {
+margin-left: 10px;
 }
-div.box1 ul {
+div.box ul {
     list-style: none ;
     padding: 0;
+    font-size: 13px;
+    opacity: calc(.7);
+    line-height: 15px;
+}
+header.header1 {
+   margin: 15px;
+   text-align: center;
+   line-height: 7px;
+}
+header.header2 {
+    font-size: 15px;
+    font-weight: 200;
+}
+header.header3 {
+    color: rgba(231, 231, 7, 0.887);
+    font-size: 13px;
+    font-weight: 120;
+}
+p {
+    font-size: 15px;
+    margin: 3%;
+}
+hr {
+    width: 65%;
+    opacity: calc(.65);
+}
+/* ######### Second Column ######### */
+div.col-8 {
+    background-color: #f4f4f4;
+    height: 100%;
+    margin-bottom: 0;
+}
+header.header4 {
+    color: rgb(21, 21, 85);
 }
