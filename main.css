@@ -10,8 +10,10 @@ body {
 .container {
     width: 100%;
     margin: auto;
-    color: #fff;
-    /* position: fixed; */
+    color: #f4f;
+    height: 100%;
+    position: fixed;
+    
 }
 .header-section-2 {
     width: 100%;
@@ -84,10 +86,17 @@ hr {
 }
 /* ######### Second Column ######### */
 div.col-8 {
-    background-color: #f4f4f4;
-    height: 100%;
+    background-color: #f4f4;
     margin-bottom: 0;
 }
 header.header4 {
     color: rgb(21, 21, 85);
+    font-size: 20px;
+    margin-top: 10px;
+}
+label {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
 }
